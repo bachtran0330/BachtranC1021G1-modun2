@@ -1,5 +1,7 @@
 package Bai1_Thuchanh;
 
+import java.util.Scanner;
+
 public class Chisocannang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

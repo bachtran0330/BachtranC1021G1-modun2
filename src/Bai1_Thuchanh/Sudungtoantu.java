@@ -1,20 +1,16 @@
 package Bai1_Thuchanh;
-import java.util.Scanner
+import java.util.Scanner;
 public class Sudungtoantu {
     public static void main(String[] args) {
         float width;
         float height;
-
         Scanner scanner = new Scanner(System.in);
+        System.out.println("nhập width: ");
+        width = scanner.nextFloat();// nhập width
+        System.out.println("nhập height: ");
+        height = scanner.nextFloat();// nhập height
+        float area = width*height;
+        System.out.println("area là :" + area);
 
-        System.out.println("Enter width: ");
-        width = scanner.nextFloat();
-
-        System.out.println("Enter height: ");
-        height = scanner.nextFloat();
-        float area = width * height;
-
-        System.out.println("Area is: " + area);
     }
 }
-

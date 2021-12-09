@@ -1,5 +1,5 @@
 package bai2_thuchanh;
-import java.util.Scanner
+import java.util.Scanner;
 public class Kiemtrasonguyento {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
