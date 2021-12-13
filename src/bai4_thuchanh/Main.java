@@ -8,5 +8,5 @@ public class Main {
         System.out.println("Enter height");
         double height = input.nextDouble();
     }
-    }
+}
 
